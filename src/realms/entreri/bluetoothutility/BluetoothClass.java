@@ -267,7 +267,7 @@ public class BluetoothClass {
 	 * 
 	 * @param macAddress - The address of the device to connect to.
 	 */
-	protected void connect(String macAddress)
+	public void connect(String macAddress)
 	{
 		connect(mBluetoothAdapter.getRemoteDevice(macAddress));
 	}
